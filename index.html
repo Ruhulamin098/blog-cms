@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blog CMS: dashboard</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+   </head>
+   <body>
+   	<header>
+   	<nav class="navbar navbar-expand-lg navbar-dark bg">
+	  <a class="navbar-brand" href="#">Blog CMS</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarColor01" bis_skin_checked="1">
+	    <ul class="navbar-nav mx-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html">Dashboard <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="pages.html">Pages</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="categories.html">Categories</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="users.html">Users</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline ml-5">
+	      <input class="form-control mr-sm-2 search_form" type="text" placeholder="Search">
+	    </form>
+	    <ul class="navbar-nav ml-auto pr-5">
+	    	<li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Account</a>
+		        <div class="dropdown-menu" aria-labelledby="dropdown01">
+		          <a class="dropdown-item" href="#">Profile</a>
+		          <a class="dropdown-item" href="login.html">Logout</a>
+		        </div>
+		    </li>
+	    </ul>
+   	</header>
+   	<section>
+   	<div class="container">
+   	<div class="row my-2">
+   		<div class="col-md-4">
+   			<div class="list-group">
+			  <a href="index.html" class="list-group-item list-group-item-action active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+			  <a href="pages.html" class="list-group-item list-group-item-action"><i class="far fa-file"></i> Pages</a>
+			  <a href="categories.html" class="list-group-item list-group-item-action"><i class="far fa-folder"></i> Categories</a>
+			  <a href="users.html" class="list-group-item list-group-item-action"><i class="far fa-user"></i> Users</a>
+			</div>
+   		</div><!--/col-md-4-->
+   		<div class="col-md-8">
+   			<h1 class="page_header"><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+   			<hr class="w-50">
+			<h3>Latest Pages</h3>
+   			<table class="table table-striped">
+			  <thead>
+			    <tr>
+			      <td></td>
+			      <th scope="col">Page Title</th>
+			      <th scope="col">Category</th>
+			      <th scope="col">Author</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td><input type="checkbox"></td>
+			      <td><a href="page.html">Sample Page Title</a></td>
+			      <td>Categroy One</td>
+			      <td>Matt</td>
+			    </tr>
+			    <tr>
+			      <td><input type="checkbox"></td>
+			      <td><a href="page.html">Sample Page Title</a></td>
+			      <td>Categroy Two</td>
+			      <td>Jcoab</td>
+			    </tr>
+			    <tr>
+			      <td><input type="checkbox"></td>
+			      <td><a href="page.html">Sample Page Title</a></td>
+			      <td>Categroy Three</td>
+			      <td>Larry</td>
+			    </tr>
+			  </tbody>
+			</table><!--/table-->
+			<a href="pages.html" class="btn btn-default border rounded"> View all pages</a>
+			<h3> Users</h3>
+   			<table class="table table-striped">
+			  <thead>
+			    <tr>
+			      <th scope="col">Name</th>
+			      <th scope="col">Email</th>
+			      <th scope="col">Group</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td><a href="user.html">Jcoab</a></td>
+			      <td>jcoab@email.com</td>
+			      <td>Editor</td>
+			    </tr>
+			    <tr>
+			      <td><a href="user.html">Larry</a></td>
+			      <td>larry@mail.com</td>
+			      <td>Admin</td>
+			    </tr>
+			    <tr>
+			      <td><a href="user.html">Matt</a></td>
+			      <td>matt@email.com</td>
+			      <td>Editor</td>
+			    </tr>
+			  </tbody>
+			</table><!--/table-->
+			<a href="users.html" class="btn btn-default border rounded">View all mebers</a>
+   		</div><!--/col-md-8-->
+   	</div><!--/row-->
+   	</div><!--/container-->
+   	</section>
+	<footer>
+		<p>Copyright&copy; 2020 by <a href="#">Ruhul A.</a></p>
+	</footer>
+	<!-- Bootstrap JS CDN -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- /Bootstrap JS CDN -->
+
+	<!-- FontAwesome JS -->
+	<script src="https://kit.fontawesome.com/4ff3fe40a1.js" crossorigin="anonymous"></script>
+	<!-- FontAwesome JS -->
+   </body>
+</html>
